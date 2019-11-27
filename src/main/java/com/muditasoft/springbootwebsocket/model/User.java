@@ -2,6 +2,13 @@ package com.muditasoft.springbootwebsocket.model;
 
 public class User {
 
+    public User() {
+    }
+
+    public User(String name) {
+        this.name = name;
+    }
+
     private String name;
 
     public String getName() {
